@@ -1,0 +1,72 @@
+:root{
+    --main-color:RGB(23, 162, 184);
+    --main-font-family:'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: #24353F;
+}
+
+.container .registeration-login-Area h1{
+color: var(--main-color);
+font-family: var(--main-font-family);
+}
+
+.container .registeration-login-Area .form-control{
+    background-color: transparent;
+    color: white;
+}
+
+.container .registeration-login-Area .form-control::placeholder{
+    color: #ced4da;
+}
+
+.container .registeration-login-Area .form-control:focus{
+    
+    border-color:var(--main-color);
+    outline: 0px;
+    box-shadow: var(--main-color) 0px 0px 0px 1px;
+}
+
+.container .registeration-login-Area button{
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    border: solid 2px var(--main-color);
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.container .registeration-login-Area button a{
+    display: block;
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    border: none;
+    background-color: transparent;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.container .registeration-login-Area button:hover a{
+    color: white;
+  
+}
+
+
+.container .registeration-login-Area button:hover{
+    color: white;
+    background-color: var(--main-color);
+}
+
+.container .registeration-login-Area p span{
+    font-family: var(--main-font-family);
+}
+.container .registeration-login-Area p .signInLink{
+    font-family: var(--main-font-family);
+cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container .registeration-login-Area p .signInLink:hover{
+    text-decoration: underline;
+}
+

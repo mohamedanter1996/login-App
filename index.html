@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imgs/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="registeration-login-Area shadow mt-5 p-5 w-75 text-center">
+        <h1 class="display-6 fw-light mb-3">Smart Login System</h1>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="userName" placeholder="Enter your name">
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" id="userEmailSignUp" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control d-none" id="userEmailSignIn" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <input type="password" class="form-control" id="userPasswordSignUp" placeholder="Enter password">
+          </div>
+
+          <div class="mb-3">
+            <input type="password" class="form-control d-none" id="userPasswordSignIn" placeholder="Enter your password">
+          </div>
+          <p class="d-none" id="message"></p>
+          <button class="col-12  rounded-1 mb-2 p-2" id="btnSignUp">Sign up</button>
+          <button class="col-12  rounded-1 mb-2 p-2 d-none" id="btnSignIn"><a  class="text-decoration-none">Sign in</a></button>
+          <p><span class="text-white">You have an account?</span><span  class="text-white signInLink" id="signInLink"> Signin</span></p>
+    </div>
+</div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

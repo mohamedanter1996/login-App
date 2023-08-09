@@ -1,0 +1,19 @@
+body{
+    background-color: #24353F;
+}
+
+body nav{
+    background-color:#24353F ;
+}
+
+
+body nav form button a{
+    text-decoration: none;
+    color: #ced4da;
+    transition: all 0.5s;
+}
+
+body nav form button:hover a{
+    color: white;
+    display: block;
+}
